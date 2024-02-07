@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="brand">
+            <span>DevNode.io</span>
+        </div>
+        <ul class="menu">
+            <li><a href="./my-blog.html">My Feed</a></li>
+            <li><a href="./about-us.html">About Us</a></li>
+            <li><a href="./contact-us.html">Contact Us</a></li>
+        </ul>
+
+        <section>
+            <button class="write-btn" onclick="write()">Write
+                <i class="fa fa-edit"></i>
+            </button>
+        </section>
+    </header>
+    <section class="body1">
+        <section class="main">
+            <section class="text">
+                <section class="title">
+                    Contact Us
+                </section>
+                <section class="data">
+                    <p>Need to get in touch with us? Either fill out the form with your inquiry or find the <a
+                            href="mailto:yashmk2004@gmail.com">department email</a> you'd like to contact below</p>
+                </section>
+            </section>
+            <section class="form-class">
+                <form action="">
+                    <div class="name">
+                        <div class="a1">
+                            <div>
+                                <label for="fname">First Name<span class="star">*</span></label>
+                            </div>
+                            <div>
+                                <input type="text" id="fname">
+                            </div>
+                        </div>
+                        <div class="a1">
+                            <div>
+                                <label for="lname">Last Name</label>
+                            </div>
+                            <div>
+                                <input type="text" id="lname">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="a1">
+                        <div>
+                            <label for="email">Email<span class="star">*</span></label>
+                        </div>
+                        <div>
+                            <input type="email" id="email">
+                        </div>
+                    </div>
+                    <div class="a1">
+                        <div>
+                            <label for="query">What can we help you with?</label>
+                        </div>
+                        <div>
+                            <textarea name="" id="query" cols="30" rows="5"></textarea>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <button class="submitBtn">Submit</button>
+                    </div>
+                </form>
+            </section>
+        </section>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
